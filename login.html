@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,user-scalable=no">
+    <title>BBT弹弹弹</title>
+    <link rel="stylesheet" href="./css/ini.css">
+    <link rel="stylesheet" href="./css/loading.css">
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+
+    <div class="pic w"></div>
+    <div class="mes w">
+        <ul>
+            <li><input type="text" id="username" placeholder="账号" maxlength="16" autocapitalize="none"></li>
+            <li><input type="password" id="password" placeholder="密码" maxlength="16" autocapitalize="none"><span
+                    id="find">找回密码</span></li>
+        </ul>
+    </div>
+    <div class="bottom w">
+        <input type="button" value="登录" id="login">
+        <a href="./register.html" id="00">注册</a>
+    </div>
+
+    <!-- loading start-->
+    <div class="loading-div" id="loading">
+        <div class="loading-img">
+            <img src="./img/loading.png">
+            <div class="loading-bar-container">
+                <div id="bar" style="width: 0%;"></div>
+            </div>
+            <div class="yellow" id="light"></div>
+        </div>
+        <div class="msg"><span>加载中</span><span id="process"></span></div>
+    </div>
+    <!-- loading end-->
+
+    <script src="./js/config.js"></script>
+    <script src="./js/loading.js"></script>
+</body>
+
+</html>

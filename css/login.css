@@ -1,0 +1,82 @@
+body {
+    background: #fff;
+}
+
+.w {
+    width: 430.5px;
+    margin: 0 auto;
+}
+
+.pic {
+    width: 161px;
+    height: 161px;
+    margin: 128px auto 71px auto;
+    background: url(../img/logo.png) no-repeat;
+    background-size: contain;
+
+}
+
+.mes ul li input {
+    width: 401.5px;
+    height: 59px;
+    margin-bottom: 29.5px;
+    padding: 0 13px;
+    border: 1.5px solid #605f5f;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.mes ul li:nth-of-type(2) {
+    position: relative;
+}
+#find {
+    position: absolute;
+    top: 1.5px;
+    right: 13px;
+    line-height: 59px;
+    padding-left: 13.5px;
+    font-size: 20px;
+    color: #b8b7b7;
+}
+
+#find::before {
+    content: "";
+    display: inline-block;
+    width: 1.5px;
+    height: 31.5px;
+    vertical-align: middle;
+    margin-right: 13.5px;
+    background-color: #b8b7b7;
+}
+
+.bottom {
+    text-align: center;
+}
+
+.bottom input {
+    box-sizing: border-box;
+    width: 430.5px;
+    height: 62px;
+    margin: 59.5px 0 0 0;
+    border-radius: 5px;
+    background: #58cf8b;
+    font-size: 23px;
+    text-indent: 33px;
+    letter-spacing: 33px;
+    color: #ffffff;
+}
+
+input[type="button"]:hover {
+    background-color: pink;
+}
+
+.bottom a {
+    display: inline-block;
+    margin: 40px auto;
+    color: #6ad473;
+    font-size: 17.5px;
+}
+
+.bottom a:hover {
+    text-decoration: underline;
+}

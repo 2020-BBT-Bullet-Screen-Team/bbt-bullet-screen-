@@ -3,7 +3,7 @@ from flask import session
 import mysql.connector
 from utils import encrypt,checkPwd
 from flask import request
-conn=mysql.connector.connect(host='localhost',user='Williams',passwd='dn235237.',database='bbt2',charset='utf8mb4')
+conn=mysql.connector.connect(host=db['host'],user=db['user'],passwd=db['password'],database=db['database'],charset='utf8mb4')
 db=conn.cursor()
 def findUser(username):
     try:
